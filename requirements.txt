@@ -1,0 +1,12 @@
+streamlit
+openai
+pydantic
+python-dotenv
+requests
+fpdf
+reportlab
+fastapi
+uvicorn
+python-multipart
+# For CORS
+fastapi[all]
