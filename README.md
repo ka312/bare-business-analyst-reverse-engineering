@@ -201,46 +201,7 @@ Edit `prompts/brd_prompt.txt` to customize the BRD generation format and style.
 
 Add new language support by creating parsers in the `parsers/` directory following the Python parser pattern.
 
-## 🐛 Troubleshooting
 
-### Common Issues
-
-1. **Ollama Connection Error**
-   - Ensure Ollama is running: `ollama serve`
-   - Check if models are installed: `ollama list`
-
-2. **Model Not Found**
-   - Pull the required model: `ollama pull <model-name>`
-   - Verify model name spelling
-
-3. **Timeout Errors**
-   - Use "Individual Functions" processing mode
-   - Reduce code size or split into smaller files
-   - Try a faster model like Mistral
-
-4. **PDF Generation Issues**
-   - Check file permissions
-   - Ensure sufficient disk space
-   - Verify FPDF installation
-
-### Performance Tips
-
-- Use "Individual Functions" mode for large codebases
-- Process files in smaller batches
-- Choose faster models for quick analysis
-- Close other applications to free up memory
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
@@ -249,15 +210,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [FPDF](https://pyfpdf.github.io/fpdf2/) for PDF generation
 - [Mermaid](https://mermaid.js.org/) for diagram generation
 
-## 📞 Support
 
-For issues, questions, or contributions:
-
-1. Check the troubleshooting section
-2. Review existing issues
-3. Create a new issue with detailed information
-4. Include code samples and error messages
-
----
-
-**Made with ❤️ for Business Analysts and Development Teams** 
